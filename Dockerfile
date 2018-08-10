@@ -34,7 +34,7 @@ USER yapi
 
 RUN mkdir yapi && \
     wget https://github.com/YMFE/yapi/archive/v1.3.21.tar.gz && \
-    tar -xzvf v1.3.19.tar.gz -C yapi --strip-components 1
+    tar -xzvf v1.3.21.tar.gz -C yapi --strip-components 1
 
 # npm install dependencies and run build
 WORKDIR /home/yapi/yapi
